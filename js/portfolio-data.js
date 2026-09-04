@@ -351,7 +351,7 @@ const PORTFOLIO_DATA = {
       { name: "Python", level: "Proficient", highlighted: true },
       { name: "SQL", level: "Proficient", highlighted: true },
       { name: "R", level: "Proficient", highlighted: true },
-      { name: "C++", level: "Intermediate", highlighted: false }
+      { name: "C++", level: "Intermediate", highlighted: true }
     ],
     analyticsBI: [
       { name: "Power BI", level: "Certified Associate", highlighted: true },
@@ -372,7 +372,7 @@ const PORTFOLIO_DATA = {
     devTools: [
       { name: "Git & GitHub", level: "Proficient", highlighted: true },
       { name: "VS Code", level: "Proficient", highlighted: true },
-      { name: "Kiro", level: "Proficient", highlighted: false }
+      { name: "Kiro", level: "Proficient", highlighted: true }
     ]
   },
 
