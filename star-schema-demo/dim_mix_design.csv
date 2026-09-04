@@ -1,0 +1,36 @@
+mix_id,mix_type,cement_grade,water_binder_ratio,total_binder_kg_m3,eco_replacement_pct,has_superplasticizer,cement_kg,slag_kg,fly_ash_kg,water_kg,sp_kg,coarse_agg_kg,fine_agg_kg
+MIX-001,Pure Ordinary Portland,High Early Strength (CEM I / OPC),0.3,540.0,0.0,TRUE,540.0,0.0,0.0,162.0,2.5,1040.0,676.0
+MIX-002,Pure Ordinary Portland,High Early Strength (CEM I / OPC),0.3,540.0,0.0,TRUE,540.0,0.0,0.0,162.0,2.5,1055.0,676.0
+MIX-003,Slag Portland Composite,Industrial High Durability (CEM III),0.48,475.0,30.0,FALSE,332.5,142.5,0.0,228.0,0.0,932.0,594.0
+MIX-004,Slag Portland Composite,Industrial High Durability (CEM III),0.58,331.0,40.0,FALSE,198.6,132.4,0.0,192.0,0.0,978.4,825.5
+MIX-005,Slag Portland Composite,Industrial High Durability (CEM III),0.6,380.0,30.0,FALSE,266.0,114.0,0.0,228.0,0.0,932.0,670.0
+MIX-006,Slag Portland Composite,Industrial High Durability (CEM III),0.48,475.0,20.0,FALSE,380.0,95.0,0.0,228.0,0.0,932.0,594.0
+MIX-007,Pure Ordinary Portland,High Early Strength (CEM I / OPC),0.48,475.0,0.0,FALSE,475.0,0.0,0.0,228.0,0.0,932.0,594.0
+MIX-008,Slag Portland Composite,Industrial High Durability (CEM III),0.48,475.0,10.0,FALSE,427.5,47.5,0.0,228.0,0.0,932.0,594.0
+MIX-009,Slag Portland Composite,Industrial High Durability (CEM III),0.6,380.0,50.0,FALSE,190.0,190.0,0.0,228.0,0.0,932.0,670.0
+MIX-010,Slag Portland Composite,Industrial High Durability (CEM III),0.6,380.0,20.0,FALSE,304.0,76.0,0.0,228.0,0.0,932.0,670.0
+MIX-011,Pure Ordinary Portland,High Early Strength (CEM I / OPC),0.6,380.0,0.0,FALSE,380.0,0.0,0.0,228.0,0.0,932.0,670.0
+MIX-012,Slag Portland Composite,Industrial High Durability (CEM III),0.55,349.0,60.0,FALSE,139.6,209.4,0.0,192.0,0.0,1047.0,806.9
+MIX-013,Slag Portland Composite,Industrial High Durability (CEM III),0.6,380.0,10.0,FALSE,342.0,38.0,0.0,228.0,0.0,932.0,670.0
+MIX-014,Slag Portland Composite,Industrial High Durability (CEM III),0.48,475.0,50.0,FALSE,237.5,237.5,0.0,228.0,0.0,932.0,594.0
+MIX-015,Pure Ordinary Portland,High Early Strength (CEM I / OPC),0.55,349.0,0.0,FALSE,349.0,0.0,0.0,192.0,0.0,1047.0,806.9
+MIX-016,Pure Ordinary Portland,High Early Strength (CEM I / OPC),0.619,310.0,0.0,FALSE,310.0,0.0,0.0,192.0,0.0,971.0,850.6
+MIX-017,Pure Ordinary Portland,High Early Strength (CEM I / OPC),0.301,485.0,0.0,FALSE,485.0,0.0,0.0,146.0,0.0,1120.0,800.0
+MIX-018,Slag Portland Composite,Industrial High Durability (CEM III),0.302,563.2,33.6,TRUE,374.0,189.2,0.0,170.1,10.1,926.1,756.7
+MIX-019,Slag Portland Composite,Industrial High Durability (CEM III),0.305,575.5,45.6,TRUE,313.3,262.2,0.0,175.5,8.6,1046.9,611.8
+MIX-020,Slag Portland Composite,Industrial High Durability (CEM III),0.289,531.3,20.0,TRUE,425.0,106.3,0.0,153.5,16.5,852.1,887.1
+MIX-021,Slag Portland Composite,Industrial High Durability (CEM III),0.285,531.3,20.0,TRUE,425.0,106.3,0.0,151.4,18.6,936.0,803.7
+MIX-022,Slag Portland Composite,Industrial High Durability (CEM III),0.27,468.8,20.0,TRUE,375.0,93.8,0.0,126.6,23.4,852.1,992.6
+MIX-023,Slag Portland Composite,Industrial High Durability (CEM III),0.305,593.8,20.0,TRUE,475.0,118.8,0.0,181.1,8.9,852.1,781.5
+MIX-024,Slag Portland Composite,Industrial High Durability (CEM III),0.235,586.2,20.0,TRUE,469.0,117.2,0.0,137.8,32.2,852.1,840.5
+MIX-025,Slag Portland Composite,Industrial High Durability (CEM III),0.325,485.7,20.0,TRUE,388.6,97.1,0.0,157.9,12.1,852.1,925.7
+MIX-026,Pure Ordinary Portland,High Early Strength (CEM I / OPC),0.267,531.3,0.0,TRUE,531.3,0.0,0.0,141.8,28.2,852.1,893.7
+MIX-027,Slag Portland Composite,Industrial High Durability (CEM III),0.293,531.3,40.0,TRUE,318.8,212.5,0.0,155.7,14.3,852.1,880.4
+MIX-028,Slag Portland Composite,Industrial High Durability (CEM III),0.297,496.5,19.1,TRUE,401.8,94.7,0.0,147.4,11.4,946.8,852.1
+MIX-029,Slag Portland Composite,Industrial High Durability (CEM III),0.299,551.6,34.3,TRUE,362.6,189.0,0.0,164.9,11.6,944.7,755.8
+MIX-030,Slag Portland Composite,Industrial High Durability (CEM III),0.303,606.5,46.6,TRUE,323.7,282.8,0.0,183.8,10.3,942.7,659.9
+MIX-031,Slag Portland Composite,Industrial High Durability (CEM III),0.29,530.7,28.5,TRUE,379.5,151.2,0.0,153.9,15.9,1134.3,605.0
+MIX-032,Slag Portland Composite,Industrial High Durability (CEM III),0.297,487.2,41.2,TRUE,286.3,200.9,0.0,144.7,11.2,1004.6,803.7
+MIX-033,Slag Portland Composite,Industrial High Durability (CEM III),0.302,616.0,28.7,TRUE,439.0,177.0,0.0,186.0,11.1,884.9,707.9
+MIX-034,Slag Portland Composite,Industrial High Durability (CEM III),0.252,578.9,32.6,TRUE,389.9,189.0,0.0,145.9,22.0,944.7,755.8
+MIX-035,Slag Portland Composite,Industrial High Durability (CEM III),0.332,526.9,35.9,TRUE,337.9,189.0,0.0,174.9,9.5,944.7,755.8

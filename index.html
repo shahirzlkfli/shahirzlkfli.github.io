@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Muhammad Shahir — UKM Statistics Graduate specializing in Data Analytics, Snowflake Data Modeling, Power BI, and AI Solutions.">
+  <meta name="author" content="Muhammad Shahir Bin Zulkifli">
+  <title>Muhammad Shahir Bin Zulkifli | Data Analyst & AI Specialist Portfolio</title>
+  
+  <!-- Inline Modern Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+  
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css?v=20260904_12">
+</head>
+<body>
+  <!-- Ambient background glow -->
+  <div class="ambient-glow"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="brand-logo" id="brand-link">
+        <div style="width: 38px; height: 38px; border-radius: 50%; background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary)); display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.95rem; color: #fff; border: 2px solid var(--accent-primary);" id="nav-avatar-box">MS</div>
+        <span id="nav-brand-name">Muhammad Shahir</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certificates" class="nav-link">Certificates</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://github.com/shahirzlkfli" target="_blank" rel="noopener noreferrer" class="nav-circle-btn" title="GitHub Profile" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/muhammadshahir" target="_blank" rel="noopener noreferrer" class="nav-circle-btn" title="LinkedIn Profile" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <button class="nav-circle-btn theme-toggle-btn" id="theme-toggle" title="Toggle Light/Dark Theme" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon" id="theme-icon"></i>
+        </button>
+        <button class="btn-nav-outline" id="nav-resume-btn" title="View Official Resume PDF">
+          <i class="fa-solid fa-file-lines"></i>
+          <span>View CV</span>
+        </button>
+        <a href="assets/Muhammad_Shahir_Resume.pdf" download="Muhammad_Shahir_Resume.pdf" class="btn-download-cv" title="Download Original Resume PDF">
+          <i class="fa-solid fa-download"></i>
+          <span>Download CV</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="about">
+      <div class="container hero-grid">
+        <!-- Hero Left / Bio -->
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="pulse-dot"></span>
+            <span id="hero-status">Actively interviewing for 2026 roles</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-gradient" id="hero-name">Muhammad Shahir</span>.<br>
+            Data Analyst & AI Solutions.
+          </h1>
+
+          <p class="hero-tagline" id="hero-tagline">
+            Statistics graduate from Universiti Kebangsaan Malaysia (UKM) with enterprise experience at YTL Cement. Specializing in Snowflake Cortex AI agents, Streamlit web analytics, Power BI dashboards, and statistical forecasting.
+          </p>
+
+          <div class="hero-ctas">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-chart-pie"></i>
+              <span>Explore Projects</span>
+            </a>
+            <button class="btn btn-secondary" id="hero-resume-btn">
+              <i class="fa-solid fa-file-pdf"></i>
+              <span>View ATS Resume</span>
+            </button>
+            <button class="btn btn-outline" id="hero-copy-email-btn" title="Copy email address">
+              <i class="fa-solid fa-copy"></i>
+              <span id="hero-email-label">Copy Email</span>
+            </button>
+          </div>
+
+          <div class="quick-links">
+            <span>Find me on:</span>
+            <a href="https://github.com/shahirzlkfli" target="_blank" rel="noopener noreferrer" class="quick-link-item" id="link-github">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/muhammadshahir" target="_blank" rel="noopener noreferrer" class="quick-link-item" id="link-linkedin">
+              <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://wa.me/601139795942" target="_blank" rel="noopener noreferrer" class="quick-link-item" id="link-whatsapp">
+              <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+            <a href="tel:+601139795942" class="quick-link-item" id="link-phone">
+              <i class="fa-solid fa-phone"></i> +601139795942
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS & CASE STUDIES -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">
+            <i class="fa-solid fa-code-branch"></i>
+            <span>Engineering Proof</span>
+          </div>
+          <h2 class="section-title">Featured Projects & Case Studies</h2>
+          <p class="section-subtitle">
+            Not just tutorial clones. Every project solves a practical engineering challenge with measurable metrics, test suites, and clean architecture.
+          </p>
+        </div>
+
+        <!-- Filter Bar -->
+        <div class="filter-bar" id="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="AI & Snowflake">AI & Snowflake</button>
+          <button class="filter-btn" data-filter="BI & Dashboards">BI & Dashboards</button>
+          <button class="filter-btn" data-filter="Data Engineering">Data Engineering</button>
+          <button class="filter-btn" data-filter="Statistical Modeling">Statistical Modeling</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projects-container">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFESSIONAL CERTIFICATIONS ⭐ (MATCHING REFERENCE UI) -->
+    <section class="certificates-section" id="certificates">
+      <div class="container">
+        <div class="cert-section-header">
+          <span class="cert-pretitle">CREDENTIALS</span>
+          <h2 class="cert-main-title">
+            PROFESSIONAL CERTIFICATIONS <span class="cert-star-icon">⭐</span>
+          </h2>
+          <div class="cert-title-underline"></div>
+        </div>
+
+        <div class="cert-cards-grid" id="certifications-container">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS MATRIX -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">
+            <i class="fa-solid fa-terminal"></i>
+            <span>Technical Capabilities</span>
+          </div>
+          <h2 class="section-title">Skills & Statistical Foundations</h2>
+          <p class="section-subtitle">
+            Grounded in rigorous statistical foundations, econometric modeling, and modern enterprise data engineering tooling.
+          </p>
+        </div>
+
+        <div class="skills-grid" id="skills-container">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE & TIMELINE -->
+    <section class="experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">
+            <i class="fa-solid fa-briefcase"></i>
+            <span>Track Record</span>
+          </div>
+          <h2 class="section-title">Experience & Leadership</h2>
+          <p class="section-subtitle">
+            Internships, academic teaching, and community leadership demonstrating ownership and team collaboration.
+          </p>
+        </div>
+
+        <div class="timeline" id="experience-timeline">
+          <!-- Populated by JS -->
+        </div>
+
+        <!-- Education & Professional References Bento -->
+        <div class="edu-rec-grid" id="education">
+          <!-- Education Card -->
+          <div class="edu-card" id="education-card">
+            <!-- Populated by JS -->
+          </div>
+
+          <!-- Professional References Card -->
+          <div class="rec-card" id="references-card">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <div class="section-tag">
+            <i class="fa-solid fa-handshake"></i>
+            <span>Let's Connect</span>
+          </div>
+          <h2 class="contact-title">Ready to drive data-informed decisions.</h2>
+          <p class="contact-text">
+            Seeking a full-time Data Analyst / BI / Data & AI position where I can apply strong statistical foundations, enterprise Snowflake expertise, and business dashboarding to solve high-impact challenges.
+          </p>
+
+          <div class="contact-action-bar">
+            <div class="email-copy-badge" id="contact-email-badge">
+              <i class="fa-solid fa-envelope"></i>
+              <span id="contact-email-text">shahirzulkifli1203@gmail.com</span>
+              <i class="fa-solid fa-copy" title="Copy to clipboard"></i>
+            </div>
+
+            <a href="mailto:shahirzulkifli1203@gmail.com" class="btn btn-primary" id="direct-email-btn">
+              <i class="fa-solid fa-paper-plane"></i>
+              <span>Send Email</span>
+            </a>
+
+            <a href="https://github.com/shahirzlkfli" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" id="contact-github-btn">
+              <i class="fa-brands fa-github"></i>
+              <span>GitHub</span>
+            </a>
+
+            <a href="https://wa.me/601139795942" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" id="contact-whatsapp-btn" style="border-color: rgba(37, 211, 102, 0.3); color: #25D366;">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>WhatsApp</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/muhammadshahir" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" id="contact-linkedin-btn">
+              <i class="fa-brands fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+
+          <p style="font-size: 0.85rem; color: var(--text-muted);">
+            Based in Seri Kembangan, Selangor · Open to On-Site (Greater KL/Selangor), Hybrid & Remote roles · Tel: +601139795942
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="current-year">2026</span> <span id="footer-name">Muhammad Shahir</span>. Engineered with clean semantic HTML5, CSS3 & JavaScript. Zero external frameworks needed.</p>
+    </div>
+  </footer>
+
+  <!-- CASE STUDY DEEP DIVE MODAL -->
+  <div class="modal-overlay" id="case-study-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="modal-tag" id="modal-tag">Flagship Project Case Study</div>
+      <h3 class="modal-title" id="modal-title">Project Title</h3>
+
+      <div class="modal-links">
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" id="modal-demo-btn">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          <span>Live Demo</span>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" id="modal-github-btn">
+          <i class="fa-brands fa-github"></i>
+          <span>Source Code</span>
+        </a>
+      </div>
+
+      <!-- Problem & Solution -->
+      <div class="case-study-block">
+        <h4 class="case-study-heading"><i class="fa-solid fa-circle-exclamation" style="color: var(--accent-amber);"></i> The Problem</h4>
+        <p class="case-study-text" id="modal-problem"></p>
+      </div>
+
+      <div class="case-study-block">
+        <h4 class="case-study-heading"><i class="fa-solid fa-lightbulb" style="color: var(--accent-success);"></i> The Technical Solution</h4>
+        <p class="case-study-text" id="modal-solution"></p>
+      </div>
+
+      <!-- Business Impact ("So What?" Factor) -->
+      <div class="impact-highlight-box" id="modal-impact-box" style="display: none;">
+        <div class="impact-highlight-title"><i class="fa-solid fa-bullseye"></i> Business Impact ("So What?" Factor)</div>
+        <div class="impact-highlight-desc" id="modal-impact-text"></div>
+      </div>
+
+      <!-- System Architecture & Flow Diagram -->
+      <div class="case-study-block">
+        <h4 class="case-study-heading"><i class="fa-solid fa-network-wired" style="color: var(--accent-primary);"></i> System Architecture & Pipeline Flow</h4>
+        <div id="modal-diagram-container"></div>
+        <ul class="case-study-list" id="modal-architecture"></ul>
+      </div>
+
+      <!-- Technical Challenges & Trade-offs -->
+      <div class="case-study-block">
+        <h4 class="case-study-heading"><i class="fa-solid fa-wrench" style="color: var(--accent-secondary);"></i> Key Engineering Challenges Solved</h4>
+        <ul class="case-study-list" id="modal-challenges"></ul>
+      </div>
+
+      <!-- Measurable Metrics & Results -->
+      <div class="case-study-block">
+        <h4 class="case-study-heading"><i class="fa-solid fa-chart-line" style="color: var(--accent-success);"></i> Measurable Outcomes & Metrics</h4>
+        <ul class="case-study-list" id="modal-metrics"></ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- PDF RESUME MODAL (OFFICIAL RESUME ONLY) -->
+  <div class="modal-overlay" id="resume-modal" role="dialog" aria-modal="true" aria-labelledby="resume-modal-title">
+    <div class="modal-content" style="max-width: 950px; width: 95%; max-height: 92vh; display: flex; flex-direction: column;">
+      <button class="modal-close-btn" id="resume-close-btn" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; flex-wrap: wrap; gap: 0.75rem;">
+        <div>
+          <div class="modal-tag"><i class="fa-solid fa-file-pdf"></i> Official Curriculum Vitae</div>
+          <h3 class="modal-title" id="resume-modal-title" style="margin-bottom: 0;">Muhammad Shahir — Official Resume</h3>
+        </div>
+        
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+          <a href="assets/Muhammad_Shahir_Resume.pdf" download="Muhammad_Shahir_Resume.pdf" class="btn btn-primary btn-sm" id="download-active-pdf-btn">
+            <i class="fa-solid fa-download"></i>
+            <span>Download Resume</span>
+          </a>
+          <a href="assets/Muhammad_Shahir_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" id="open-new-tab-btn">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            <span>Open in New Tab</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Native PDF Viewer Frame -->
+      <div style="flex: 1; min-height: 550px; background: #0f172a; border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border-subtle); box-shadow: var(--shadow-md);">
+        <iframe src="assets/Muhammad_Shahir_Resume.pdf" id="resume-pdf-frame" style="width: 100%; height: 72vh; border: none; display: block; background: #fff;"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Scripts -->
+  <script src="js/portfolio-data.js?v=20260904_12"></script>
+  <script src="js/app.js?v=20260904_12"></script>
+</body>
+</html>

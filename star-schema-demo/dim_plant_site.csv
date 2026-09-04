@@ -1,0 +1,4 @@
+plant_id,plant_name,state,region,capacity_mtpa
+PLANT-RAWANG,Rawang Integrated Cement Plant,Selangor,Central,3.2
+PLANT-KANTHAN,Kanthan Cement Plant,Perak,Northern,2.8
+PLANT-LANGKAWI,Langkawi Island Marine Plant,Kedah,Northern Island,1.5
