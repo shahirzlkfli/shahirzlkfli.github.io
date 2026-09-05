@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   
   <!-- Custom Stylesheet -->
-  <link rel="stylesheet" href="css/style.css?v=20260905_01">
+  <link rel="stylesheet" href="css/style.css?v=20260905_02">
 </head>
 <body>
   <!-- Ambient background glow -->
@@ -71,20 +71,35 @@
     <!-- HERO SECTION -->
     <section class="hero-section" id="about">
       <div class="container hero-grid">
-        <!-- Hero Left / Bio -->
+        <!-- Hero Left / Profile Visual (Round Picture with Floating Badge) -->
+        <div class="hero-profile-card">
+          <div class="hero-avatar-container">
+            <div class="hero-circle-frame">
+              <img src="assets/shahir_profile_square.jpg" alt="Muhammad Shahir Bin Zulkifli" class="hero-round-img" id="hero-profile-img">
+            </div>
+            
+            <!-- Floating Badge Overlapping Bottom-Left (Matching Reference) -->
+            <div class="hero-floating-badge">
+              <div class="floating-badge-title">Open to Opportunities</div>
+              <div class="floating-badge-sub">Data Analyst · BI · AI Solutions</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right / Bio & CTAs -->
         <div class="hero-content">
           <div class="status-pill">
             <span class="pulse-dot"></span>
-            <span id="hero-status">Actively interviewing for 2026 roles</span>
+            <span id="hero-status">Available for Full-Time Data & AI Positions (2026)</span>
           </div>
 
           <h1 class="hero-title">
-            Hi, I'm <span class="text-gradient" id="hero-name">Muhammad Shahir</span>.<br>
+            Hi, I'm <span class="text-gradient" id="hero-name">Muhammad Shahir Bin Zulkifli</span>.<br>
             Data Analyst & AI Solutions.
           </h1>
 
           <p class="hero-tagline" id="hero-tagline">
-            Statistics graduate from Universiti Kebangsaan Malaysia (UKM) with enterprise experience at YTL Cement. Specializing in Snowflake Cortex AI agents, Streamlit web analytics, Power BI dashboards, and statistical forecasting.
+            Statistics graduate from UKM with hands-on enterprise experience in data analytics, data modelling, dashboard development, and AI-enabled reporting on Snowflake, Streamlit, and Power BI.
           </p>
 
           <div class="hero-ctas">
@@ -116,16 +131,6 @@
             <a href="tel:+601139795942" class="quick-link-item" id="link-phone">
               <i class="fa-solid fa-phone"></i> +601139795942
             </a>
-          </div>
-        </div>
-
-        <!-- Hero Right / Profile Visual -->
-        <div class="hero-profile-card">
-          <div class="hero-avatar-wrapper">
-            <img src="assets/shahir_profile_square.jpg" alt="Muhammad Shahir Bin Zulkifli" class="hero-profile-img" id="hero-profile-img">
-            <div class="hero-avatar-status-badge">
-              <span class="pulse-dot"></span> Available for Full-Time Roles
-            </div>
           </div>
         </div>
       </div>
@@ -382,7 +387,7 @@
   <div class="toast-container" id="toast-container"></div>
 
   <!-- Scripts -->
-  <script src="js/portfolio-data.js?v=20260905_01"></script>
-  <script src="js/app.js?v=20260905_01"></script>
+  <script src="js/portfolio-data.js?v=20260905_02"></script>
+  <script src="js/app.js?v=20260905_02"></script>
 </body>
 </html>
