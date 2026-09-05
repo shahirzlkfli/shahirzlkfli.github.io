@@ -13,7 +13,7 @@ const PORTFOLIO_DATA = {
     shortName: "Muhammad Shahir",
     preferredName: "Shahir",
     pronouns: "he/him",
-    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+    avatar: "assets/shahir_profile_square.jpg",
     roleTitle: "Bachelor of Science with Honours (Statistics) | Data & AI",
     tagline: "Statistics graduate from UKM with hands-on enterprise experience in data analytics, data modelling, dashboard development, and AI-enabled reporting on Snowflake, Streamlit, and Power BI.",
     location: "Seri Kembangan, Selangor, Malaysia",
@@ -38,7 +38,7 @@ const PORTFOLIO_DATA = {
       category: "Data Engineering",
       featured: true,
       badge: "Flagship Project · Live Demo",
-      shortDescription: "Engineered an enterprise dimensional Star Schema (1 Fact + 3 Dimensions) and Snowflake Semantic View from raw concrete test data for natural-language Cortex AI analytics.",
+      shortDescription: "Engineered an enterprise dimensional Star Schema (1 Fact + 3 Dimensions) and Snowflake Semantic View from raw concrete test data for natural-language Cortex AI analytics. (Disclaimer: Utilizes public dummy/benchmark dataset from Kaggle for demonstration).",
       stats: "Star Schema (Fact + 3 Dims) · Snowflake Semantic View SQL · Interactive KPI Dashboard",
       image: "assets/concrete-plant.jpg",
       tags: ["Snowflake", "Data Modelling", "Star Schema", "Semantic Views", "Python", "SQL", "Streamlit"],
@@ -46,7 +46,7 @@ const PORTFOLIO_DATA = {
       githubUrl: null,
       
       caseStudy: {
-        problem: "Raw industrial quality control data (like concrete compressive tests) is typically captured as unstructured flat tables with only raw numerical mix proportions, making multi-facility comparison, time-curing trend analysis, and natural-language AI querying impossible without proper dimensional modeling.",
+        problem: "Raw industrial quality control data (modeled here using an open-source dummy/benchmark concrete dataset from Kaggle) is typically captured as unstructured flat tables with only raw numerical mix proportions, making multi-facility comparison, time-curing trend analysis, and natural-language AI querying impossible without proper dimensional modeling.",
         solution: "Engineered an enterprise Star Schema decomposing raw test observations into three dedicated dimension tables (Dim_Plant_Site, Dim_Mix_Design, Dim_Curing_Age) connected to Fact_Concrete_Tests. On top of this schema, formulated the Snowflake Semantic View V_SEMANTIC_CONCRETE_QUALITY_ANALYTICS to standardize 28-day compliance pass rates and green cement substitution percentages.",
         businessImpact: "Demonstrates practical enterprise data modeling that bridges civil engineering metrics with Snowflake analytics, allowing plant managers and Cortex AI agents to query quality compliance in plain English.",
         diagramFlow: [
