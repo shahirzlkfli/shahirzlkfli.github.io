@@ -19,7 +19,115 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   
   <!-- Custom Stylesheet -->
-  <link rel="stylesheet" href="css/style.css?v=20260905_02">
+  <link rel="stylesheet" href="css/style.css?v=20260905_03">
+
+  <!-- Embedded Hero Styles (Guarantees Circular Photo & Left Layout Even if CSS is Cached) -->
+  <style>
+    .hero-grid {
+      display: grid !important;
+      grid-template-columns: 320px 1fr !important;
+      gap: 3.5rem !important;
+      align-items: center !important;
+    }
+    .hero-profile-card {
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+      width: 100% !important;
+    }
+    .hero-avatar-container {
+      position: relative !important;
+      width: 300px !important;
+      height: 300px !important;
+      max-width: 100% !important;
+      aspect-ratio: 1 / 1 !important;
+      margin: 0 auto !important;
+    }
+    .hero-circle-frame {
+      width: 100% !important;
+      height: 100% !important;
+      border-radius: 50% !important;
+      overflow: hidden !important;
+      border: 4px solid #1e293b !important;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6), 0 0 35px rgba(56, 189, 248, 0.25) !important;
+      background: #0380f8 !important;
+      position: relative !important;
+      transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+    }
+    .hero-avatar-container:hover .hero-circle-frame {
+      transform: scale(1.02) !important;
+      box-shadow: 0 20px 48px rgba(0, 0, 0, 0.7), 0 0 45px rgba(56, 189, 248, 0.35) !important;
+    }
+    .hero-round-img {
+      width: 100% !important;
+      height: 100% !important;
+      border-radius: 50% !important;
+      object-fit: cover !important;
+      object-position: center top !important;
+      display: block !important;
+    }
+    .hero-floating-badge {
+      position: absolute !important;
+      bottom: 8px !important;
+      left: -10px !important;
+      z-index: 10 !important;
+      background: rgba(15, 23, 42, 0.88) !important;
+      backdrop-filter: blur(14px) !important;
+      -webkit-backdrop-filter: blur(14px) !important;
+      border: 1px solid rgba(255, 255, 255, 0.15) !important;
+      border-radius: 14px !important;
+      padding: 0.7rem 1.15rem !important;
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.55) !important;
+      pointer-events: none !important;
+      transition: transform 0.3s ease !important;
+    }
+    .hero-avatar-container:hover .hero-floating-badge {
+      transform: translateY(-2px) !important;
+    }
+    .floating-badge-title {
+      font-size: 0.92rem !important;
+      font-weight: 700 !important;
+      color: #ffffff !important;
+      margin-bottom: 0.2rem !important;
+      letter-spacing: -0.01em !important;
+      line-height: 1.2 !important;
+      white-space: nowrap !important;
+    }
+    .floating-badge-sub {
+      font-size: 0.74rem !important;
+      color: #94a3b8 !important;
+      font-weight: 500 !important;
+      white-space: nowrap !important;
+    }
+    .hero-title {
+      font-size: clamp(2rem, 4.2vw, 2.85rem) !important;
+      line-height: 1.2 !important;
+      word-break: break-word !important;
+    }
+    @media (max-width: 992px) {
+      .hero-grid {
+        grid-template-columns: 1fr !important;
+        gap: 2.25rem !important;
+        text-align: center !important;
+      }
+      .hero-avatar-container {
+        width: 250px !important;
+        height: 250px !important;
+      }
+      .hero-floating-badge {
+        bottom: 4px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        padding: 0.6rem 1rem !important;
+      }
+      .hero-avatar-container:hover .hero-floating-badge {
+        transform: translateX(-50%) translateY(-2px) !important;
+      }
+      .hero-ctas, .quick-links {
+        justify-content: center !important;
+      }
+    }
+  </style>
 </head>
 <body>
   <!-- Ambient background glow -->
@@ -29,7 +137,7 @@
   <header class="navbar">
     <div class="container nav-container">
       <a href="#" class="brand-logo" id="brand-link">
-        <img src="assets/shahir_profile_square.jpg" alt="Muhammad Shahir" id="nav-avatar-img" style="width: 38px; height: 38px; border-radius: 50%; object-fit: cover; border: 2px solid var(--accent-primary); display: block;">
+        <img src="assets/shahir_profile_square.jpg" onerror="this.onerror=null; this.src='assets/shahir_profile.jpg';" alt="Muhammad Shahir" id="nav-avatar-img" style="width: 38px; height: 38px; border-radius: 50%; object-fit: cover; border: 2px solid var(--accent-primary); display: block;">
         <span id="nav-brand-name">Muhammad Shahir</span>
       </a>
 
@@ -70,18 +178,18 @@
   <main>
     <!-- HERO SECTION -->
     <section class="hero-section" id="about">
-      <div class="container hero-grid">
+      <div class="container hero-grid" style="display: grid; grid-template-columns: minmax(280px, 320px) 1fr; gap: 3.5rem; align-items: center;">
         <!-- Hero Left / Profile Visual (Round Picture with Floating Badge) -->
-        <div class="hero-profile-card">
-          <div class="hero-avatar-container">
-            <div class="hero-circle-frame">
-              <img src="assets/shahir_profile_square.jpg" alt="Muhammad Shahir Bin Zulkifli" class="hero-round-img" id="hero-profile-img">
+        <div class="hero-profile-card" style="display: flex; justify-content: center; align-items: center; width: 100%;">
+          <div class="hero-avatar-container" style="position: relative; width: 300px; height: 300px; max-width: 100%; aspect-ratio: 1 / 1;">
+            <div class="hero-circle-frame" style="width: 100%; height: 100%; border-radius: 50%; overflow: hidden; border: 4px solid #1e293b; box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6), 0 0 35px rgba(56, 189, 248, 0.25); background: #0380f8; position: relative;">
+              <img src="assets/shahir_profile_square.jpg" onerror="this.onerror=null; this.src='assets/shahir_profile.jpg';" alt="Muhammad Shahir Bin Zulkifli" class="hero-round-img" id="hero-profile-img" style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover; object-position: center top; display: block;">
             </div>
             
             <!-- Floating Badge Overlapping Bottom-Left (Matching Reference) -->
-            <div class="hero-floating-badge">
-              <div class="floating-badge-title">Open to Opportunities</div>
-              <div class="floating-badge-sub">Data Analyst · BI · AI Solutions</div>
+            <div class="hero-floating-badge" style="position: absolute; bottom: 8px; left: -10px; z-index: 10; background: rgba(15, 23, 42, 0.88); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 14px; padding: 0.7rem 1.15rem; box-shadow: 0 12px 28px rgba(0, 0, 0, 0.55); pointer-events: none;">
+              <div class="floating-badge-title" style="font-size: 0.92rem; font-weight: 700; color: #ffffff; margin-bottom: 0.2rem; letter-spacing: -0.01em; line-height: 1.2; white-space: nowrap;">Open to Opportunities</div>
+              <div class="floating-badge-sub" style="font-size: 0.74rem; color: #94a3b8; font-weight: 500; white-space: nowrap;">Data Analyst · BI · AI Solutions</div>
             </div>
           </div>
         </div>
